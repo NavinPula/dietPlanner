@@ -1,0 +1,89 @@
+[
+  {
+    "image": "assets/images/PP-WHEY-ChocolateSupreme_Free-Shaker.webp",
+    "title": "GNC 100% Whey Protein",
+    "description": "A premium-quality whey protein blend with concentrate and isolate that supports lean muscle growth, faster recovery, and improved performance. Certified for purity and great taste.",
+    "keyBenefit": [
+      "Promotes Lean Muscle Growth – High-quality blend of whey protein isolate and concentrate.",
+      "Faster Muscle Recovery – Rich in BCAAs to rebuild muscle tissue.",
+      "Supports Strength & Performance – Boosts endurance and athletic performance.",
+      "Informed Choice Certified – Tested for purity and banned substances."
+    ]
+  },
+  {
+    "image": "assets/images/1_ee079096-c3ba-4127-aedb-639c6e7d0785.webp",
+    "title": "GNC AMP Pure Isolate (Low/Zero Carb)",
+    "description": "An ultra-clean whey isolate with minimal carbs and fat, designed for lean muscle gain and faster recovery. Ideal for athletes and calorie-conscious fitness enthusiasts.",
+    "keyBenefit": [
+      "Ultra-Pure Whey Isolate – 25g of premium protein with minimal carbs and fat.",
+      "Faster Muscle Recovery – Packed with essential amino acids and BCAAs.",
+      "Low-Carb, Low-Fat Formula – Perfect for calorie-conscious or cutting diets.",
+      "Informed Choice Certified – Ensures purity and no banned substances."
+    ]
+  },
+  {
+    "image": "assets/images/ZMA-LISTING-IMAGESArtboard-40.webp",
+    "title": "GNC Pro Performance ZMA Complex",
+    "description": "A powerful blend of Zinc, Magnesium, and Vitamin B6 that supports deep sleep, muscle recovery, and natural testosterone levels. Ideal for athletes seeking better overnight recovery.",
+    "keyBenefit": [
+      "Promotes Deep Sleep – Supports undisturbed rest for muscle recovery.",
+      "Enhances Muscle Recovery – Reduces fatigue and soreness.",
+      "Supports Testosterone Production – Improves hormonal balance.",
+      "Informed Choice Certified – Tested for purity and banned substances."
+    ]
+  },
+  {
+    "image": "assets/images/Artboard-1_2130fe75-e011-46a7-8fe7-db7078adac80.webp",
+    "title": "GNC AMP Gold Series BCAA Advanced",
+    "description": "A BCAA-rich intra/post-workout supplement that boosts endurance, recovery, and hydration. Formulated with electrolytes and glutamine for superior performance and lean muscle gains.",
+    "keyBenefit": [
+      "Enhances Muscle Recovery – Accelerates muscle repair post-workout.",
+      "Boosts Endurance – Reduces fatigue during intense training.",
+      "Hydration Support – Includes electrolytes to maintain fluid balance.",
+      "Informed Choice Certified – Tested for purity and safety."
+    ]
+  },
+  {
+    "image": "assets/images/pck_3998035_o.webp",
+    "title": "MuscleBlaze Super Gainer XXL & Shaker Combo",
+    "description": "A mass gainer combo featuring MuscleBlaze Super Gainer XXL and a stylish 700ml shaker. Delivers 15g protein per serving to support muscle growth, recovery, and strength development.",
+    "keyBenefit": [
+      "Perfect Gym Accessory – Includes a stylish BPA-free shaker.",
+      "Supports Muscle Growth – Ideal for healthy mass gain.",
+      "Protein-Rich Formula – 15g protein per 100g serving.",
+      "Convenient Combo – Nutrition and utility in one pack."
+    ]
+  },
+  {
+    "image": "assets/images/prd_3087491-MuscleBlaze-MBVITE-Daily-Multivitamin-for-Enhanced-Energy-Stamina-Gut-Health-30-tablets-Unflavoured_o.webp",
+    "title": "MuscleBlaze MB-VITE Daily Multivitamin",
+    "description": "A complete multivitamin with 6 blends and 50+ ingredients to boost energy, stamina, immunity, and gut health. Perfect for active lifestyles and fitness enthusiasts.",
+    "keyBenefit": [
+      "New & Improved – 6 powerful blends with 50+ key ingredients.",
+      "Boosts Energy & Stamina – Enhances endurance and vitality.",
+      "Supports Immunity – 100% RDA of key vitamins and minerals.",
+      "Improves Gut Health – Packed with prebiotics and probiotics."
+    ]
+  },
+  {
+    "image": "assets/images/pck_3023841_o.jpg",
+    "title": "MuscleBlaze High Protein Oats & Peanut Butter Combo",
+    "description": "A delicious, protein-packed combo of dark chocolate oats and peanut butter with 22g protein per serving. Supports muscle gain, energy, and overall nutrition.",
+    "keyBenefit": [
+      "Protein Power – 22g protein to support muscle growth.",
+      "High Fibre – Promotes fullness and heart health.",
+      "Dark Chocolate Peanut Butter – Tasty and nutritious combo.",
+      "Rich Protein Source – Fulfills daily protein needs."
+    ]
+  },
+  {
+    "image": "assets/images/prd_4046523-MuscleBlaze-Magnesium-Bisglycinate-Unflavored-60-tablets_o.webp",
+    "title": "MuscleBlaze Magnesium Glycinate",
+    "description": "Highly absorbable magnesium that supports relaxation, muscle recovery, and better sleep. Gentle on the stomach with superior absorption and calming benefits.",
+    "keyBenefit": [
+      "Highly Absorbable – Superior magnesium form for better bioavailability.",
+      "Gentle on Stomach – No laxative effect, ideal for daily use.",
+      "Promotes Calmness – Helps relaxation and sleep quality."
+    ]
+  }
+]

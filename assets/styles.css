@@ -1,0 +1,395 @@
+/* Modern Minimalist Design - Matching Reference */
+
+/* Page background */
+[data-testid="stAppViewContainer"] {
+  background-color: #F5F5F5 !important;
+}
+
+[data-testid="stMarkdownContainer"] > p {
+  color: #2C3E50;
+}
+
+/* Remove default Streamlit styling */
+.main .block-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Headings - Brighter Colors */
+.h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #667eea !important;
+  margin: 0 0 8px 0;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #667eea !important;
+  margin: 0 0 6px 0;
+}
+
+.h2 p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #667eea !important;
+  margin: 0 0 6px 0;
+}
+
+.h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #667eea !important;
+  margin: 0;
+}
+
+/* Sub text - Brighter */
+.text-muted {
+  color: #667eea !important;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* Sidebar - Clean Design */
+[data-testid="stSidebar"] {
+  background-color: #FFFFFF !important;
+  border-right: 1px solid #E0E0E0;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {
+  color: #2C3E50;
+}
+
+/* Streamlit Sidebar Navigation - Darker Colors */
+[data-testid="stSidebarNav"] {
+  margin-top: 0 !important;
+  margin-bottom: auto !important;
+}
+
+/* Override any Streamlit default text colors in sidebar nav - for inactive links */
+[data-testid="stSidebarNav"] a:not([aria-current="page"]),
+[data-testid="stSidebarNav"] a:not([aria-current="page"]) *,
+[data-testid="stSidebarNav"] a:not([aria-current="page"]) span,
+[data-testid="stSidebarNav"] a:not([aria-current="page"]) p {
+  color: #1a1a1a !important;
+  font-weight: 600 !important;
+}
+
+[data-testid="stSidebarNav"] a {
+  padding: 10px 16px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s !important;
+}
+
+[data-testid="stSidebarNav"] a:hover,
+[data-testid="stSidebarNav"] a:hover *,
+[data-testid="stSidebarNav"] a:hover span {
+  background-color: #E5E7EB !important;
+  color: #000000 !important;
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"],
+[data-testid="stSidebarNav"] a[aria-current="page"] *,
+[data-testid="stSidebarNav"] a[aria-current="page"] span {
+  background-color: #667eea !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+}
+
+[data-testid="stSidebarNav"] a[aria-current="page"]:hover,
+[data-testid="stSidebarNav"] a[aria-current="page"]:hover *,
+[data-testid="stSidebarNav"] a[aria-current="page"]:hover span {
+  background-color: #5568d3 !important;
+  color: #FFFFFF !important;
+}
+
+/* Sidebar title - Position at top */
+[data-testid="stSidebar"] > div:first-of-type {
+  order: -1 !important;
+}
+
+[data-testid="stSidebar"] .sidebar-title {
+  position: relative;
+  z-index: 10;
+}
+
+.sidebar-title {
+  text-align: left;
+  font-weight: 600;
+  color: #2C3E50 !important;
+  margin-bottom: 24px;
+  margin-top: 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 0;
+}
+
+.sidebar-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}
+
+/* Navigation items */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin: 4px 0;
+  border-radius: 8px;
+  color: #7F8C8D !important;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #F5F5F5;
+}
+
+.nav-item.active {
+  background-color: #667eea !important;
+  color: #FFFFFF !important;
+}
+
+.nav-item.active .nav-icon {
+  color: #FFFFFF !important;
+}
+
+.nav-icon {
+  font-size: 18px;
+  color: #7F8C8D;
+}
+
+/* Remove card styling - seamless design */
+.card {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-bottom: 32px;
+}
+
+/* Suggestion boxes - subtle gray */
+.suggestion-box {
+  background-color: #F8F9FA !important;
+  border: 1px solid #E9ECEF;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 8px 0;
+  transition: all 0.2s;
+}
+
+.suggestion-box:hover {
+  background-color: #F0F2F5 !important;
+  border-color: #DEE2E6;
+}
+
+.suggestion-icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.suggestion-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2C3E50 !important;
+  margin: 0 0 4px 0;
+}
+
+.suggestion-subtitle {
+  font-size: 13px;
+  color: #7F8C8D !important;
+  margin: 0;
+}
+
+/* Card grid for suggestions */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Hint box */
+.hint {
+  background: #F8F9FA !important;
+  border: 1px solid #E9ECEF;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #495057 !important;
+  line-height: 1.6;
+}
+
+/* Day pills */
+.day-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #F8F9FA !important;
+  color: #7F8C8D !important;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #E9ECEF;
+}
+
+.day-pill:hover {
+  background: #E9ECEF !important;
+}
+
+.day-pill.active {
+  background: #667eea !important;
+  color: #FFFFFF !important;
+  border-color: #667eea;
+}
+
+/* Input styling */
+.stTextInput > div > div > input {
+  background-color: #F8F9FA !important;
+  border: 1px solid #E9ECEF !important;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.stTextInput > div > div > input:focus {
+  border-color: #667eea !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Button styling */
+.stButton > button {
+  background-color: #667eea !important;
+  color: #eeeeee !important;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.2s;
+}
+
+.stButton > button:hover {
+  background-color: #5568d3 !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+/* Number input styling */
+.stNumberInput > div > div > input {
+  background-color: #F8F9FA !important;
+  border: 1px solid #E9ECEF !important;
+  border-radius: 8px;
+}
+
+/* Section spacing */
+.section-spacing {
+  margin-bottom: 40px;
+}
+
+/* Hero section */
+.hero-section {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2C3E50 !important;
+  margin: 0 0 12px 0;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #7F8C8D !important;
+  margin: 0;
+}
+
+/* BMI result box */
+.bmi-result {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #FFFFFF !important;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bmi-value {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bmi-category {
+  font-size: 18px;
+  margin-top: 8px;
+  opacity: 0.95;
+}
+
+/* Stats grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.stat-box {
+  background: #F8F9FA;
+  border: 1px solid #E9ECEF;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #667eea !important;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #7F8C8D !important;
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Remove Streamlit default margins */
+.element-container {
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .h1 {
+    font-size: 24px;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+  }
+}
