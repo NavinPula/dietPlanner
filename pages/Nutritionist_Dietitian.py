@@ -13,25 +13,25 @@ except FileNotFoundError:
 st.markdown('<h1 class="h1">👩‍⚕️ Nutritionist / Dietitian Experts</h1>', unsafe_allow_html=True)
 st.markdown('<div class="text-muted" style="margin-bottom: 32px;">Find trusted dietitians and nutrition experts near you to support your health goals.</div>', unsafe_allow_html=True)
 
-# Data for cards
+# Updated Data for cards
 doctors = [
     {
-        "name": "Dr. Aniruddh Kurulkar",
-        "specialization": "Sports & Exercise Nutrition",
-        "mobile": "9975316075",
-        "address": "Tale Hipparga Marbe Vasti, Padmavati Nagar, Solapur - 413002"
+        "name": "Dr. Maitrey Kamble",
+        "specialization": "Nutrition Specialist",
+        "mobile": "7499549066",
+        "address": "C5 B Block, Green Apartments, Varad Farm, Near Madaki Vasti, Pune Highway, Solapur"
     },
     {
-        "name": "Dr. Swapna Wale",
-        "specialization": "Medical Nutrition",
-        "mobile": "9834989407",
-        "address": "Rohidas Nagar, Ghatsil Road, Tuljapur - 413601"
+        "name": "Dr. Nikhil Ghogle",
+        "specialization": "Diet & Nutrition Expert",
+        "mobile": "7218058890",
+        "address": "Tale Hipparga Marbe Vasti, Padmavati Nagar, Solapur"
     },
     {
-        "name": "Dr. Shweta Adakul",
-        "specialization": "Pediatrics Dietitian",
-        "mobile": "7385418325",
-        "address": "Flat No. 502, 5th Floor, Hayaticon Apartment, Mohite Nagar, near Raghoji Hospital, Aasara, Solapur - 413003"
+        "name": "Dr. Navin Pula",
+        "specialization": "Clinical Nutritionist",
+        "mobile": "8999891481",
+        "address": "Mohite Nagar, Near Raghoji Hospital, Solapur"
     }
 ]
 
@@ -57,7 +57,7 @@ for i, doc in enumerate(doctors):
         </div>
         """, unsafe_allow_html=True)
 
-# Back to Home Button (Streamlit button instead of link)
+# Back to Home Button
 st.markdown('<div style="margin-top:40px; text-align:center;">', unsafe_allow_html=True)
 if st.button("🏠 Go to Home", use_container_width=False, key="go_home_btn"):
     st.switch_page("Home.py")
