@@ -26,7 +26,7 @@ doctors = [
 # Create 3-column layout for cards
 cols = st.columns(3)
 for i, doc in enumerate(doctors):
-    with cols[i % 3]:
+    with cols[i % 2]:
         st.markdown(f"""
         <div style="
             background-color: #ffffff;
