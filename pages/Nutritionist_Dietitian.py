@@ -16,23 +16,11 @@ st.markdown('<div class="text-muted" style="margin-bottom: 32px;">Find trusted d
 # Updated Data for cards
 doctors = [
     {
-        "name": "Dr. Maitrey Kamble",
-        "specialization": "Nutrition Specialist",
-        "mobile": "7499549066",
-        "address": "C5 B Block, Green Apartments, Varad Farm, Near Madaki Vasti, Pune Highway, Solapur"
+        "name": "Hanmant Chintamani Mohite",
+        "specialization": "Sports nutritionists",
+        "mobile": "97670 99095",
+        "address": "At/Post  Dongaon  Tal.North Solapur Dis. Solapur 413001"
     },
-    {
-        "name": "Dr. Nikhil Ghogle",
-        "specialization": "Diet & Nutrition Expert",
-        "mobile": "7218058890",
-        "address": "Tale Hipparga Marbe Vasti, Padmavati Nagar, Solapur"
-    },
-    {
-        "name": "Dr. Navin Pula",
-        "specialization": "Clinical Nutritionist",
-        "mobile": "8999891481",
-        "address": "Mohite Nagar, Near Raghoji Hospital, Solapur"
-    }
 ]
 
 # Create 3-column layout for cards
