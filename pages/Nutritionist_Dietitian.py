@@ -24,7 +24,7 @@ doctors = [
 ]
 
 # Create 3-column layout for cards
-cols = st.columns(3)
+cols = st.columns(2, gap="large")
 for i, doc in enumerate(doctors):
     with cols[i % 2]:
         st.markdown(f"""
